@@ -5,6 +5,8 @@ This project demonstrates a fully automated Continuous Integration and Continuou
 
 The pipeline ensures that every code push is automatically built, tested, and deployed consistently across environments using containerization.
 
+![CI/CD Pipeline Architecture](docs/images/6022320 pipeline-architecture.png)
+
 ## 🏗️ Architecture & Workflow
 The deployment lifecycle is managed via a `Jenkinsfile` and triggered automatically via GitHub Webhooks.
 
