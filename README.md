@@ -19,6 +19,8 @@ The deployment lifecycle is managed via a `Jenkinsfile` and triggered automatica
    * **Registry Push:** The Docker image is pushed to a container registry (e.g., Docker Hub / Amazon ECR).
    * **Deployment:** Jenkins connects to the target AWS EC2 instance, pulls the latest Docker image, and spins up the container, resulting in a lightweight, scalable deployment.
 
+![CI/CD Pipeline Architecture](docs/images/Flow-Of-Project.png)
+
 ## 🛠️ Technologies & Tools
 * **Version Control:** Git, GitHub
 * **CI/CD Automation:** Jenkins (Declarative Pipeline)
